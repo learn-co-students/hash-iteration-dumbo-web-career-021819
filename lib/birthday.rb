@@ -8,4 +8,9 @@ def happy_birthday(birthday_kids)
   # add your code snippet here!
 end
 
-
+def happy_birthday(birthday_kids)
+  # add your code snippet here!
+  birthday_kids.each { |key, value|
+    puts "Happy Birthday #{key}! You are now #{value} years old!"
+  }
+end 
